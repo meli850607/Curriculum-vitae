@@ -1,0 +1,31 @@
+.nom{
+  background-color: rgb(240, 170, 97);
+  text-transform: capitalize;
+  padding-top: 20px;
+  margin-left: -200px;
+  padding-bottom: 30px;
+  color: rgb(32, 47, 60);
+  font-family: 'Overlock', cursive;
+}
+
+h4{
+  margin-top: 50px;
+}
+
+progress{
+  width: 150px;
+  height: auto;
+}
+
+.html{
+  padding-right: 50px;
+}
+.js{
+  padding-right: 70px;
+}
+.react{
+  padding-right: 100px;
+}
+.reactnative{
+  padding-right: 110px;
+}
