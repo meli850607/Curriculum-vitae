@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .nom{
   background-color: rgb(240, 170, 97);
   text-transform: capitalize;
@@ -29,3 +30,168 @@ progress{
 .reactnative{
   padding-right: 110px;
 }
+=======
+.nom{
+  background-color: rgb(231, 155, 155);
+  text-align: left;
+  text-transform: capitalize;
+  margin-left: -350px;
+  padding-top: 20px;
+  font-family: 'Overlock', cursive;
+  border-radius: 20px
+}
+
+h4{
+  margin-top: 30px;
+}
+
+progress{
+  width: 200px;
+  background-color: rgb(0, 175, 54);
+  margin-bottom: 20px;
+}
+
+.html{
+  padding-left: 110px;
+}
+.js{
+  padding-left: 80px;
+}
+.react{
+  padding-left: 60px;
+}
+.reactnative{
+  padding-left: 40px;
+}
+
+.parcours{
+  text-align: left;
+  text-transform: capitalize;
+  padding-top: 20px;
+  font-family: 'Overlock', cursive;
+}
+
+h1{
+  text-align: center;
+}
+
+h1::after{
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: rgb(231, 155, 155);
+  text-align: center;
+  margin-top: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #000;
+  text-transform: none;
+}
+
+a:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+.txt{
+  display: inline-block;
+  font-size: 30px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+i{
+  margin-right: 60px;
+  color: rgb(52, 106, 163);
+}
+
+.moi{
+  margin-bottom: 0;
+}
+
+.date1{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.date2{
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+.date3{
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+.date4{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.formations1{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.formations2{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.formations3{
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+.formations4{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.lieu1{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.lieu2{
+  margin-top: 20px;
+  margin-bottom: 55px;
+}
+
+.lieu3{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.lieu4{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.emplois{
+  text-align: left;
+  font-family: 'Overlock', cursive;
+  margin-left: -65px;
+  margin-top: -200px;
+}
+
+.date{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.emploi{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.lieu{
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+>>>>>>> master
