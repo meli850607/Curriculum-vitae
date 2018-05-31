@@ -1,6 +1,25 @@
-header{
+.nom{
   background-color: rgb(240, 179, 145);
   text-align: left;
   text-transform: capitalize;
-  margin-left: -700px;
+  margin-left: -350px;
+  padding-top: 20px;
+  font-family: 'Overlock', cursive;
+}
+
+progress{
+  background-color: rgb(0, 175, 54);
+
+}
+.html{
+  padding-left: 100px;
+}
+.js{
+  padding-left: 60px;
+}
+.react{
+  padding-left: 40px;
+}
+.reactnative{
+  padding-left: 20px;
 }
