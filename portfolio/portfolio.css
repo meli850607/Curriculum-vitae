@@ -8,6 +8,7 @@
   text-align: center;
   margin: 0 auto;
   text-transform: capitalize;
+  font-family: 'Overlock', cursive;
 }
 
 img{
@@ -17,9 +18,16 @@ img{
   margin-bottom: 50px;
   border: 1px solid #000;
   border-radius: 15px;
+  transition: 1s;
 }
 
 img:hover{
-  opacity: 0.5;
-  transition: 1s;
+  opacity: 0.7;
+  -webkit-box-shadow: 10px 18px 30px 0px rgba(22,23,36,1);
+  -moz-box-shadow: 10px 18px 30px 0px rgba(22,23,36,1);
+  box-shadow: 10px 18px 30px 0px rgba(22,23,36,1);
+}
+
+body{
+  background-color: rgb(231, 155, 155);
 }
