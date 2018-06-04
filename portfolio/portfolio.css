@@ -3,7 +3,6 @@
   text-align: center;
 }
 
-
 .row h1{
   text-align: center;
   margin: 0 auto;
@@ -13,7 +12,7 @@
 
 img{
   width: 100%;
-  height: auto;
+  height: 200px;
   margin-top: 50px;
   margin-bottom: 50px;
   border: 1px solid #000;

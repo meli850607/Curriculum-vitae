@@ -179,11 +179,14 @@ progress::-webkit-progress-value {
 }
 
 .html {
+  padding-right: 80px;
+}
+.css{
   padding-right: 100px;
 }
 
 .js {
-  padding-right: 120px;
+  padding-right: 140px;
 }
 
 .react {
