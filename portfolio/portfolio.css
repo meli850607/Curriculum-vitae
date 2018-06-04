@@ -1,0 +1,25 @@
+.row{
+  width: 1140px;
+  text-align: center;
+}
+
+
+.row h1{
+  text-align: center;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border: 1px solid #000;
+  border-radius: 15px;
+}
+
+img:hover{
+  opacity: 0.5;
+  transition: 1s;
+}
