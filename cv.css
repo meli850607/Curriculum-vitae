@@ -198,3 +198,37 @@ progress::-webkit-progress-value {
 }
 
 /*----------------fin barres de progressions--------------*/
+
+/*----------------button---------------*/
+
+button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #000000;
+  border: 2px solid #000000;
+  border-radius: 20px;
+  cursor: pointer;
+
+}
+
+
+button:hover{
+  transition: 1s;
+  background-color: #f1f1f1;
+  border: 2px solid #f1f1f1;
+}
+
+button a{
+  text-decoration: none;
+  color: rgb(185, 183, 239);
+
+}
+
+button a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+body{
+  background-image: url('src/light_alu/light_alu/light_alu_@2X.png');
+}
