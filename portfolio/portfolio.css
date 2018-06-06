@@ -8,7 +8,7 @@
   margin: 0 auto;
   text-transform: capitalize;
   font-family: 'Overlock', cursive;
-  color: rgb(185, 183, 239);
+  color: #3d3d3d;
   margin-top: 50px;
   margin-bottom: 50px;
 }
@@ -60,7 +60,7 @@ button:hover{
 
 button a{
   text-decoration: none;
-  color: #bdc3c7;
+  color: #ccc;
 }
 
 button a:hover{
