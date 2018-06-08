@@ -2,9 +2,32 @@
   text-align: center;
   margin-left: 640px !important;
 }
+
 .row{
   width: 1140px;
   height: auto;
+}
+
+.back{
+  margin-top: 50px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.back:hover{
+  color: #000;
+}
+
+.a{
+  color: #1e3554;
+  font-size: 20px;
+  transition: 1s;
+  margin-left: -550px;
+}
+
+.a:hover{
+  color: black;
+  text-decoration: none;
 }
 
 body{
@@ -12,6 +35,7 @@ body{
 }
 
 h2{
+  color: #1e3554;
   text-transform: uppercase;
   text-align: center;
   margin-top: 100px;
@@ -19,7 +43,7 @@ h2{
 }
 h2::after{
   content: "";
-  background-color: #3d3d3d;
+  background-color: #1e3554;
   width: 75px;
   height: 2px;
   display: block;
@@ -29,6 +53,7 @@ h2::after{
 }
 
 h6{
+  color: #1e3554;
   text-align: center;
   font-size:20px;
   margin-left: 20px;
@@ -37,11 +62,11 @@ h6{
 }
 
 input{
-  border:2px solid #3d3d3d!important;
+  border:2px solid #1e3554!important;
 }
 
 textarea{
-  border:2px solid #3d3d3d!important;
+  border:2px solid #1e3554!important;
 }
 
 p{
@@ -55,19 +80,19 @@ p{
 
 .btn-default {
   background-color: transparent !important;
-  color: #3d3d3d !important;
+  color: #1e3554 !important;
   border-radius: 5px !important;
-  border: 2px solid #3d3d3d !important;
+  border: 2px solid #1e3554 !important;
   margin-bottom: 50px;
   width: 540px;
-  margin-left: 8px;
+  margin-left: -12px;
   margin-top: 10px;
 }
 
 .btn-default:hover {
   transition: 1s;
-  background-color: #3d3d3d !important;
-  border-color: #3d3d3d !important;
+  background-color: #1e3554 !important;
+  border-color: #1e3554 !important;
   color: #ccc!important;
 }
 
@@ -75,38 +100,10 @@ p{
   display: block;
 }
 
-footer{
+footer p{
   margin-top: 200px;
-  text-align: center;
-}
-
-/*----------------button---------------*/
-
-button{
-  margin-top: 20px;
-  margin-bottom: 20px;
-  background-color: #000000;
-  border: 2px solid #000000;
-  border-radius: 20px;
-  cursor: pointer;
-  position: relative;
-  left:50%;
-  transform: translate(-50%, 0);
-}
-
-
-button:hover{
-  transition: 1s;
-  background-color: #f1f1f1;
-  border: 2px solid #f1f1f1;
-}
-
-button a{
-  color: #ccc;
-  text-decoration: none;
-}
-
-button a:hover{
-  color: #3d3d3d;
-  text-decoration: none;
+  margin-left: -550px;
+  font-family: cursive, Overlock;
+  font-size: 10px!important;
+  color: #1e3554;
 }

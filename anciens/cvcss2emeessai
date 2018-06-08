@@ -1,0 +1,250 @@
+.row {
+  width: 1140px;
+  height: auto;
+  font-family: 'Overlock', cursive;
+  text-transform: capitalize;
+}
+
+/*-----------------contenu--------------*/
+
+h1 {
+  text-align: center;
+  font-family: 'Overlock', cursive;
+  text-transform: capitalize;
+  color: #ccc;
+}
+
+header {
+  background-color: #3d3d3d;
+  text-align: center;
+  text-transform: capitalize;
+  color: #ccc;
+  padding-bottom: 20px;
+  font-family: 'Overlock', cursive;
+}
+
+
+#main {
+  padding: 20px;
+  text-align: center;
+}
+
+footer{
+  text-align: center;
+  background-color:#3d3d3d;
+  height: 70px;
+  padding-top: 20px;
+  font-family: 'Overlock', cursive;
+}
+
+.footer{
+  color: #ccc;
+}
+
+.formation{
+  margin-top: 20px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.formation::after{
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #3d3d3d;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.experiences{
+  margin-top: 30px;
+  text-transform: capitalize;
+  color: #000;
+}
+
+.experiences::after{
+  content: " ";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: #3d3d3d;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+/*-----------fin de contenu-------------*/
+
+/*---------------sidebar--------------*/
+
+.sidenav {
+  height: 100%;
+  width: 15%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #3d3d3d;
+  padding-top: 180px;
+  text-align: center;
+  color: #ccc;
+  text-transform: capitalize;
+  font-family: 'Overlock', cursive;
+}
+
+.infos {
+  text-align: left;
+  margin-left: 27px;
+}
+
+.sidenav a {
+  padding: 3px 3px 3px 25px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #ccc;
+  display: inline-block;
+  transition: 0.3s;
+}
+
+.mail {
+  color: #ccc !important;
+  padding-left: 0 !important;
+  font-size: 17px !important;
+  text-transform: none;
+  margin-left: -3px;
+}
+
+.moi{
+  margin-left: 22px;
+  margin-top: -5px;
+}
+
+.moi1{
+  margin-top: -15px;
+  margin-left: 22px;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+i{
+  margin-right: 10px;
+}
+
+.ville{
+  margin-left: 22px;
+}
+
+/*---------------fin sidebar--------------*/
+
+
+/*--------------barres de progressions--------------*/
+
+progress {
+  display: block;
+  /* default: inline-block */
+  width: 200px;
+  margin-bottom: 5px;
+  margin-left: 40px;
+  padding: 4px;
+  border: 0 none;
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.5), 0px 1px 0px rgba(255, 255, 255, 0.2);
+}
+
+progress::-moz-progress-bar {
+  background: #4ab361;
+  border-radius: 12px;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.4), 0 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+/* une méthode pour ne cibler que Chrome */
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  progress {
+    height: 25px;
+    /* légèrement plus fin sur Chrome par défaut */
+  }
+}
+
+/* on enlève le fond de cet élément supplémentaire */
+
+progress::-webkit-progress-bar {
+  background: #4ab361;
+  border-radius: 12px;
+}
+
+progress::-webkit-progress-value {
+  background: #4ab361;
+  border-radius: 12px;
+  box-shadow: inset 0 -2px 4px rgba(0, 0, 0, 0.4), 0 2px 5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.html {
+  padding-right: 80px;
+}
+.css{
+  padding-right: 100px;
+}
+
+.js {
+  padding-right: 140px;
+}
+
+.react {
+  padding-right: 150px;
+}
+
+.reactnative {
+  padding-right: 150px;
+}
+
+/*----------------fin barres de progressions--------------*/
+
+/*----------------button---------------*/
+
+button{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #ccc;
+  border: 2px solid #ccc;
+  border-radius: 20px;
+  cursor: pointer;
+  color: #000000;
+
+}
+
+
+button:hover{
+  transition: 1s;
+  background-color: #f1f1f1;
+  border: 2px solid #f1f1f1;
+}
+
+button a{
+  text-decoration: none;
+  color: #3d3d3d;
+
+}
+
+button a:hover{
+  text-decoration: none;
+  color: #000000;
+}
+
+body{
+  background-image: url('src/light_alu/light_alu/light_alu_@2X.png');
+}

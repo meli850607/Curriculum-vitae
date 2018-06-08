@@ -45,7 +45,7 @@ progress{
   padding-top: 20px;
   padding-bottom: 20px;
   width: 1140px;
- text-align: center; 
+ text-align: center;
 }
 .nom{
   background-color: rgb(231, 155, 155);
