@@ -35,8 +35,10 @@ img:hover{
 }
 
 footer{
-  margin-top: 50px;
+  margin-top: 400px;
   text-align: center;
+  font-family: 'Overlock', cursive;
+  font-size: 10px;
 }
 
 a{
