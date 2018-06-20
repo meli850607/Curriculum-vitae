@@ -96,7 +96,7 @@ a:hover{
   margin-bottom: 50px;
 }
 
-.autre{
+.hobbie{
   margin-top: 50px;
   margin-bottom: 50px;
   text-align: center;
@@ -154,4 +154,12 @@ img{
 .four{
   float: left;
   padding-left: 90px;
+}
+
+.autres{
+  text-align: center;
+}
+
+.autre{
+  text-align: center;
 }
