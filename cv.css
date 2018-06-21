@@ -8,6 +8,7 @@
   color: #1e3554;
 }
 
+
 .back{
   margin-bottom: 60px;
   text-align: center;
@@ -65,7 +66,7 @@ a:hover{
 }
 
 .formation{
-  margin-top: 50px;
+  margin-top: 30px;
   margin-bottom: 50px;
 }
 
@@ -81,8 +82,8 @@ a:hover{
 }
 
 .experiences{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  margin-top: 30px;
 }
 
 .experiences::after{
@@ -97,8 +98,8 @@ a:hover{
 }
 
 .hobbie{
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+  margin-top: 30px;
   text-align: center;
 }
 
@@ -158,10 +159,16 @@ img{
 
 .autres{
   text-align: center;
-  margin-bottom: 50px;
-  margin-top: 50px;
+  margin-bottom: 25px;
+  margin-top: 30px;
 }
 
 .autre{
   text-align: center;
+}
+
+.impression{
+  font-size: 15px!important;
+  font-family: 'Overlock',cursive;
+  margin-top: -20px;
 }
