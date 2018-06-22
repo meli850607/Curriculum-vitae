@@ -30,6 +30,10 @@ h1{
   text-align: center;
 }
 
+h4{
+  margin-left: 20px;
+}
+
 .poste{
   text-align: center;
 }
@@ -50,6 +54,22 @@ i:hover{
 
 .mob{
   margin-left: 3px;
+}
+
+.date4{
+  margin-top: 40px;
+}
+
+.lieu4{
+  margin-top: 40px;
+}
+
+.formations5{
+  margin-top: 40px;
+}
+
+.date5{
+  margin-top: 45px;
 }
 
 a{
@@ -160,15 +180,19 @@ img{
 .autres{
   text-align: center;
   margin-bottom: 25px;
-  margin-top: 30px;
 }
 
 .autre{
   text-align: center;
 }
 
+.portfolio{
+  text-align: left;
+  font-size: 20px!important;
+}
+
 .impression{
   font-size: 15px!important;
   font-family: 'Overlock',cursive;
-  margin-top: -20px;
+  margin-top: -40px;
 }
