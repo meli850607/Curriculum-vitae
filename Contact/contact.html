@@ -1,64 +1,72 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-    <link rel="stylesheet" href="contact.css">
-    <link href="https://fonts.googleapis.com/css?family=Overlock:400,400i,700,900" rel="stylesheet">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Contact</title>
-  </head>
-  <body>
-    <!--début formulaire-->
-      <div class="container contact">
-        <div class="row back">
-          <div class="col-md-12">
-            <a class="lien" href="../accueil.html"> <i class="fas fa-arrow-circle-left"></i>Retour à l'accueil</a>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Overlock:400,400i,700,900" rel="stylesheet">
+  <link rel="stylesheet" href="contact.css">
+  <title></title>
+</head>
+<body>
+  <div class="container totalite">
+    <div class="row">
+      <div class="col-md-12 accueil">
+        <a class="back-home" href="../accueil.html"><i class="fas fa-arrow-circle-left"></i>Retour à l'accueil</a>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="titre">contact</h2>
+        <h6 class="titre2">Vous pouvez me contacter ici</h6>
+      </div>
+    </div>
+    <div class="container">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <form action="https://formspree.io/m.brossard@live.fr" method="POST">
+          <div class="row">
+            <div class="col-md-6 form-group">
+              <input class="form-control" type="text" id="yourname" placeholder="Entrez votre nom" name="name" required>
+            </div>
+            <div class="col-md-6 form-group">
+              <input class="form-control" type="text" id="yoursurname" placeholder="Entrez votre prénom" name="lastname" required>
+            </div>
           </div>
-        <div class="row">
-          <div class="col-md-6">
-            <h2>contact</h2>
-            <h6>Vous pouvez me contacter ici</h6>
+          <div class="row">
+            <div class="col-md-12">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="email" class="form-control" id="youremail" placeholder="Entrez votre Email" name="_replyto" required>
+                </div>
+                <div class="col-md-6 form-group">
+                  <input type="text" class="form-control" id="yoursubject" placeholder="Entrez votre sujet" name="subject" required>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div class="col-md-6">
-          <form action="https://formspree.io/m.brossard@live.fr" method="POST">
-            <div class="row">
-              <div class="form-group col-md-3">
-                <input class="form-control" type="text" id="yourname" placeholder="Entrez votre nom" name="name" required>
-              </div>
-              <div class="form-group col-md-3">
-                <input class="form-control" type="text" id="yoursurname" placeholder="Entrez votre prénom" name="lastname" required>
-              </div>
+          <div class="row">
+            <div class="col-md-12 form-group">
+              <textarea class="form-control" id="yourmessage" rows="6" placeholder="Entrez votre message" name="message" required></textarea>
             </div>
-            <div class="row">
-              <div class="form-group col-md-3">
-                <input type="email" class="form-control" id="youremail" placeholder="Entrez votre Email" name="_replyto" required>
-              </div>
-              <div class="form-group col-md-3">
-                <input type="text" class="form-control" id="yoursubject" placeholder="Entrez votre sujet" name="subject" required>
-              </div>
-            </div>
-            <div class="row">
-              <div class="form-group col-md-6">
-                <textarea class="form-control" id="yourmessage" rows="6" placeholder="Entrez votre message" name="message" required></textarea>
-              </div>
-            </div>
-            <div class="btn">
+          </div>
+          <div class="row">
+            <div class="col-md-12 btn">
               <button type="submit" class="btn btn-default center-block" value="Send">Envoyer</button>
             </div>
-        </div>
+          </div>
         </form>
       </div>
-    <!--fin formulaire-->
-  <footer>
-  <p>©Copyright 2018 Ce site a été créé par Mélissa Brossard</p>
-  </footer>
-</div>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-  </body>
+    </div>
+  </div>
+    <footer>
+      <div class="row">
+        <div class="col-md-12">
+          <p class="footer">©Copyright 2018 Ce site a été créé par Mélissa Brossard</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+</body>
 </html>

@@ -1,50 +1,29 @@
-.container{
-  text-align: center;
-  margin-left: 640px !important;
+*{
   font-family: 'Overlock', cursive;
-
-}
-
-.row{
-  width: 1140px;
-  height: auto;
-}
-
-.back{
-  margin-top: 50px;
-  margin-bottom: 60px;
-}
-
-.lien{
-  text-align: center;
-  color: #fff;
-  background-color: #1e3554;
-  padding: 8px;
-  border: 2px solid #1e3554;
-  border-radius: 10px;
-  cursor: pointer;
-  transition: 1s;
-}
-
-
-.lien:hover{
   color: #1e3554;
-  background-color: transparent;
-  text-decoration: none;
-  border: none;
+  font-size: 16px;
+  text-rendering: optimizeLegibility;
 }
 
 body{
+  background-color: #1e3554;
+}
+
+.totalite{
+  min-height:400px;
+  background-color: grey;
   background-image: url('../src/light_alu/light_alu/light_alu_@2X.png');
+  padding-top: 30px;
+}
+
+h2, h6{
+  font-weight: bold;
 }
 
 h2{
-  color: #1e3554;
   text-transform: uppercase;
-  text-align: center;
-  margin-top: 100px;
-  margin-left: 20px;
 }
+
 h2::after{
   content: "";
   background-color: #1e3554;
@@ -52,34 +31,83 @@ h2::after{
   height: 2px;
   display: block;
   margin: 0 auto;
-  margin-top: 10px;
-  margin-bottom: 20px;
+  margin-top: 5px;
+  margin-bottom: 10px;
 }
 
 h6{
-  color: #1e3554;
-  text-align: center;
   font-size:20px;
-  margin-left: 20px;
-  text-transform: capitalize;
   margin-bottom: 20px;
 }
 
+/*----------------bouton retour accueil-----------------*/
+
+.accueil{
+  text-align: center;
+}
+
+.back-home i{
+  color: #fff;
+}
+
+.back-home:hover i{
+  color: #1e3354;
+}
+
+.back-home{
+  color: #fff;
+  background-color: #1e3554;
+  padding: 8px;
+  border: 2px solid #1e3554;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: 1s;
+  text-align: center;
+}
+
+.back-home:hover{
+  color: #1e3554;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+}
+
+.fa-arrow-circle-left {
+  color: #fff;
+}
+
+
+/*----------------fin bouton retour accueil-----------------*/
+
+/*-------------------------titre--------------------*/
+
+.titre{
+  text-align: center;
+  margin-top: 100px;
+}
+
+.titre2{
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+/*-------------------fin titre ---------------*/
+
+/*-------------formulaire---------------*/
+
 input{
   border:2px solid #1e3554!important;
+  background-color: transparent!important;
+  transition: 0.6s!important;
+  text-align: center!important;
 }
 
 textarea{
   border:2px solid #1e3554!important;
-}
+  background-color: transparent!important;
+  transition: 0.6s!important;
+  text-align: center!important;
 
-p{
-  text-align: center;
-  font-size: 15px;
-}
-
-.champ:hover{
-  color: red !important;
 }
 
 .btn-default {
@@ -88,26 +116,26 @@ p{
   border-radius: 5px !important;
   border: 2px solid #1e3554 !important;
   margin-bottom: 50px;
-  width: 540px;
-  margin-left: -12px;
-  margin-top: 10px;
+  transition: 0.6s;
+  width: 100%;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .btn-default:hover {
-  transition: 1s;
   background-color: #1e3554 !important;
   border-color: #1e3554 !important;
   color: #ccc!important;
 }
 
-.btn{
-  display: block;
+/*----------------fin formulaire-------------*/
+
+/*-------------footer---------------*/
+
+footer{
+  text-align: center;
+  margin-top: 100px;
+  padding-bottom: 50px;
 }
 
-footer p{
-  margin-top: 200px;
-  margin-left: -550px;
-  font-family: 'Overlock', cursive;
-  font-size: 10px!important;
-  color: #1e3554;
-}
+/*----------------fin footer-------------*/
