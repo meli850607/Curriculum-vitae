@@ -134,8 +134,9 @@ textarea{
 
 footer{
   text-align: center;
-  margin-top: 100px;
-  padding-bottom: 50px;
+  margin-top: 250px;
+  padding-bottom: 13px;
+  font-size: 10px;
 }
 
 /*----------------fin footer-------------*/
