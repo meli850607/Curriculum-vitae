@@ -23,15 +23,22 @@
   color: #000;
 }
 
-.a{
-  font-size: 20px;
-  color: #1e3554;
+.lien{
+  color: #fff;
+  background-color: #1e3554;
+  padding: 8px;
+  border: 2px solid #1e3554;
+  border-radius: 10px;
+  cursor: pointer;
   transition: 1s;
 }
 
-.a:hover{
-  color: #000;
+
+.lien:hover{
+  color: #1e3554;
+  background-color: transparent;
   text-decoration: none;
+  border: none;
 }
 
 img{

@@ -13,23 +13,25 @@
 .back{
   margin-top: 50px;
   margin-bottom: 60px;
+}
+
+.lien{
   text-align: center;
-}
-
-.back:hover{
-  color: #000;
-}
-
-.a{
-  color: #1e3554;
-  font-size: 20px;
+  color: #fff;
+  background-color: #1e3554;
+  padding: 8px;
+  border: 2px solid #1e3554;
+  border-radius: 10px;
+  cursor: pointer;
   transition: 1s;
-  margin-left: -550px;
 }
 
-.a:hover{
-  color: black;
+
+.lien:hover{
+  color: #1e3554;
+  background-color: transparent;
   text-decoration: none;
+  border: none;
 }
 
 body{
