@@ -293,6 +293,36 @@ a{
 
 /*--------------------footer---------------------*/
 
+.telechager i{
+  color: #fff;
+}
+
+.telechager:hover i{
+  color: #1e3554;
+}
+
+.telechager button{
+  margin-bottom: 30px;
+  padding: 8px;
+  width: 200px;
+  height: auto;
+  cursor: pointer;
+  background: #1e3554;
+  color: #fff;
+  border: 1px solid #1e3354;
+  border-radius: 10px;
+  transition: 2s;
+  font-weight: 600;
+}
+
+.telechager button:hover{
+  color: #1e3554;
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  font-weight: 600;
+}
+
 footer{
   text-align: center;
   font-size: 10px;
